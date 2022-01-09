@@ -1,7 +1,7 @@
 local discordinv = "https://discord.gg/xRkZMpAeWX"
 local d
 local f = pcall(function()
-    d = game:HttpGet("https://raw.githubusercontent.com/UnityP2/UnityP2/main/"..game.PlaceId..".lua")
+    d = game:HttpGet("https://raw.githubusercontent.com/UnityP2/UnityP2/main/GameScripts/"..game.PlaceId..".lua")
 end)
 if f == true then
     loadstring(d)()
