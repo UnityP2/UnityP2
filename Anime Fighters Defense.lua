@@ -203,16 +203,6 @@ toys.ImageRectOffset = Vector2.new(764, 164)
 toys.ImageRectSize = Vector2.new(36, 36)
 
 -- Scripts:
-
-local function CRCBUNR_fake_script() -- Frame.LocalScript 
-	local script = Instance.new('LocalScript', Frame)
-
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent:TweenPosition(UDim2.new(0.8,0,0.7,0),"InOut","Sine",2)
-	end)
-end
-coroutine.wrap(CRCBUNR_fake_script)()
 local function DBRTMVR_fake_script() -- Defense.Script 
 	local script = Instance.new('Script', Defense)
 
