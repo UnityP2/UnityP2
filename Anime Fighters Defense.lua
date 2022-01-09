@@ -203,7 +203,8 @@ toys.ImageRectOffset = Vector2.new(764, 164)
 toys.ImageRectSize = Vector2.new(36, 36)
 
 -- Scripts:
-local function DBRTMVR_fake_script() -- Defense.Script 
+
+local function LEWEFG_fake_script() -- Defense.Script 
 	local script = Instance.new('Script', Defense)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -213,15 +214,11 @@ local function DBRTMVR_fake_script() -- Defense.Script
 		wait(1)
 		local A_2 = "1MilFaves"
 		local Event2 = game:GetService("ReplicatedStorage").Remote.RedeemCode
-		Event:InvokeServer(A_2)
-		local A_3 = "ThanksGiving"
-		local Event3 = game:GetService("ReplicatedStorage").Remote.RedeemCode
-		Event:InvokeServer(A_3)
-			
+		Event2:InvokeServer(A_2)
 	end)
 end
-coroutine.wrap(DBRTMVR_fake_script)()
-local function MZBQG_fake_script() -- Luck.Script 
+coroutine.wrap(LEWEFG_fake_script)()
+local function VFLJD_fake_script() -- Luck.Script 
 	local script = Instance.new('Script', Luck)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -230,8 +227,8 @@ local function MZBQG_fake_script() -- Luck.Script
 		P.CFrame = CFrame.new(-145, -184, -4083)
 	end)
 end
-coroutine.wrap(MZBQG_fake_script)()
-local function IADHN_fake_script() -- Divine.Script 
+coroutine.wrap(VFLJD_fake_script)()
+local function YJEPNAL_fake_script() -- Divine.Script 
 	local script = Instance.new('Script', Divine)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -240,12 +237,12 @@ local function IADHN_fake_script() -- Divine.Script
 		P.CFrame = CFrame.new(-1893, -185, 5540)
 	end)
 end
-coroutine.wrap(IADHN_fake_script)()
-local function VWSLY_fake_script() -- toys.Script 
+coroutine.wrap(YJEPNAL_fake_script)()
+local function PXHQE_fake_script() -- toys.Script 
 	local script = Instance.new('Script', toys)
 
 	script.Parent.MouseButton1Click:connect(function()
 	ScreenGui:Destroy()
 	end)
 end
-coroutine.wrap(VWSLY_fake_script)()
+coroutine.wrap(PXHQE_fake_script)()
