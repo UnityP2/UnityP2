@@ -221,9 +221,13 @@ local function DBRTMVR_fake_script() -- Defense.Script
 		local Event = game:GetService("ReplicatedStorage").Remote.RedeemCode
 		Event:InvokeServer(A_1)
 		wait(1)
-		local A_1 = "1MilFaves"
-		local Event = game:GetService("ReplicatedStorage").Remote.RedeemCode
-		Event:InvokeServer(A_1)
+		local A_2 = "1MilFaves"
+		local Event2 = game:GetService("ReplicatedStorage").Remote.RedeemCode
+		Event:InvokeServer(A_2)
+		local A_3 = "ThanksGiving"
+		local Event3 = game:GetService("ReplicatedStorage").Remote.RedeemCode
+		Event:InvokeServer(A_3)
+			
 	end)
 end
 coroutine.wrap(DBRTMVR_fake_script)()
